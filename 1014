@@ -1,0 +1,4 @@
+Km = int(input())
+Fuel = float(input())
+consuption = Km / Fuel
+print(f'{consuption:.3f} km/l')
