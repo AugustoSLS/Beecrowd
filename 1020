@@ -5,4 +5,6 @@ idade %= 365
 meses = idade//30
 dias = idade % 30
 
-print(f'{anos} ano(s) {meses} mes(es) {dias} dia(s)')
+print(f'{anos} ano(s)')
+print(f'{meses} mes(es)') 
+print(f'{dias} dia(s)')
