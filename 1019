@@ -1,0 +1,13 @@
+segundos = int(input())
+
+horas = segundos//3600
+segundos %= 3600
+minutos = segundos//60
+segundos %= 60
+
+print(f'{horas}:{minutos}:{segundos}')
+
+
+# %= --> x = x % n
+# % -> modulo retorna o resto da divisão 
+# // --> divide somente para inteiro, tipo 225/2 = 112.5 e 225/2 = 122
