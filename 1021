@@ -14,6 +14,7 @@ print(f"{int(N//2)} nota(s) de R$ 2.00")
 N %= 2
 print("MOEDAS:")
 print(f"{int(N//1)} moeda(s) de R$ 1.00")
+N %= 1
 print(f"{int(N//0.50)} moeda(s) de R$ 0.50")
 N %= 0.50
 print(f"{int(N//0.25)} moeda(s) de R$ 0.25")
@@ -23,4 +24,3 @@ N %= 0.10
 print(f"{int(N//0.05)} moeda(s) de R$ 0.05")
 N %= 0.05
 print(f"{int(N//0.01)} moeda(s) de R$ 0.01")
-N %= 0.01
