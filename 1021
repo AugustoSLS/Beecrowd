@@ -1,6 +1,6 @@
 N = float(input())
 print("NOTAS:")
-print(f"{int(N//100)} nota(s) de R$ 100,.0")
+print(f"{int(N//100)} nota(s) de R$ 100.00")
 N %= 100
 print(f"{int(N//50)} nota(s) de R$ 50.00")
 N %= 50
